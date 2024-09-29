@@ -8,92 +8,92 @@ poor = 10 + rich
 
 // let numbers = [2,3,45, 65,54];
 // numbers[2] = 43;
-// numbers.push(43, 4, 6, 4);
-numbers = [3, 5, 6, 4]
-// console.log(numbers);
+// // numbers.push(43, 4, 6, 4);
+// numbers = [3, 5, 6, 4]
+// // console.log(numbers);
 
-let student = {name: 'akash', class: 12};
-// student.name = 'shakib';
-student = {name: 'shakib', class: 11};
+// let student = {name: 'akash', class: 12};
+// // student.name = 'shakib';
+// student = {name: 'shakib', class: 11};
 // console.log(student);
 
-for(let i = 1; i < 10; i++){
-	// console.log(i);
-}
-
-// function add(num1, num2 = 0){
-	// let result = 0;
-	// result = num1 + num2;
-	// console.log(result);
+// for(let i = 1; i < 10; i++){
+// 	// console.log(i);
 // }
 
-// add(3)
+// // function add(num1, num2 = 0){
+// 	// let result = 0;
+// 	// result = num1 + num2;
+// 	// console.log(result);
+// // }
 
-function add(num1 = 8, num2 = 8){
-	const result = num1 + num2;
-	// console.log(num1, num2, result);
+// // add(3)
 
-	return result;
-}
+// function add(num1 = 8, num2 = 8){
+// 	const result = num1 + num2;
+// 	// console.log(num1, num2, result);
 
-// const sum = add(4, 5);
-// const sum = add(3);
-// const sum = add(4, 5, 6) 
-// const sum = add() 
-// console.log(sum);
+// 	return result;
+// }
 
-function fullName(first, last =''){
-	const full = first + ' ' + last;
+// // const sum = add(4, 5);
+// // const sum = add(3);
+// // const sum = add(4, 5, 6) 
+// // const sum = add() 
+// // console.log(sum);
 
-	// console.log(first, last, full);
-	return full;
-}
+// function fullName(first, last =''){
+// 	const full = first + ' ' + last;
 
-// const name = fullName(, 'Akash');
-// console.log(name);
+// 	// console.log(first, last, full);
+// 	return full;
+// }
 
-function friends(numbs = []){
-	const num = [345, 54, 54];
-	// console.log('inside array', numbs, num);
-	return num;
-}
+// // const name = fullName(, 'Akash');
+// // console.log(name);
 
-const numbs = friends(23,45, 65,45);
-// console.log('outside array', numbs);
+// function friends(numbs = []){
+// 	const num = [345, 54, 54];
+// 	// console.log('inside array', numbs, num);
+// 	return num;
+// }
 
-const first = 'Abdul Mazid';
-const last = 'Akash';
+// const numbs = friends(23,45, 65,45);
+// // console.log('outside array', numbs);
 
-// const result = first + ' ' + last;
-// const result = `My name is ${first} ${last}`;
-// console.log(result);
+// const first = 'Abdul Mazid';
+// const last = 'Akash';
 
-// const sentence = `My name is Akash
-// Shakib Al Hasan
-// Mashrafe Bin Mortaza
-// Tamim Iqbal
-// `
+// // const result = first + ' ' + last;
+// // const result = `My name is ${first} ${last}`;
+// // console.log(result);
 
-const sentence = 'My name is Akash \n' + 'Shakib Al Hasan \n' + 'Mashrafe Mortaza \n' + 'Tamim Iqbal';
+// // const sentence = `My name is Akash
+// // Shakib Al Hasan
+// // Mashrafe Bin Mortaza
+// // Tamim Iqbal
+// // `
 
-// console.log(sentence);
+// const sentence = 'My name is Akash \n' + 'Shakib Al Hasan \n' + 'Mashrafe Mortaza \n' + 'Tamim Iqbal';
+
+// // console.log(sentence);
 
 
-function add(a, b){
-	return a + b;
-}
+// function add(a, b){
+// 	return a + b;
+// }
 
-const add1 = function(a, b){
-	return a + b;
-}
+// const add1 = function(a, b){
+// 	return a + b;
+// }
 
-const add2 = (a, b) => a + b;
+// const add2 = (a, b) => a + b;
 
-const multiply = (a, b, c, d) => a * b * c * d;
+// const multiply = (a, b, c, d) => a * b * c * d;
 
-const divide = (a, b) => a / b;
+// const divide = (a, b) => a / b;
 
-const dividing = (a, b) => a % b;
+// const dividing = (a, b) => a % b;
 // const sum = add2(3, 4);
 // console.log(sum);
 // const mult = multiply(2, 2, 2, 2);
@@ -208,12 +208,12 @@ const math = (x, y, z) =>{
 // let [num1, num2] = numbers();
 // console.log(num1)+
 
-const glass = {
-	name: 'glass',
-	color: 'golden',
-	price: 123,
-	isCleaned: true,
-}
+// const glass = {
+// 	name: 'glass',
+// 	color: 'golden',
+// 	price: 123,
+// 	isCleaned: true,
+// }
 
 // console.log(Object.keys(glass));
 // console.log(Object.values(glass))
@@ -229,13 +229,133 @@ const glass = {
 
 
 // Object.freeze(glass);
-Object.seal(glass);
-glass.source = 'bangladesh';
-console.log(glass);
-// delete glass.price;
-glass.price = 5000;
-console.log(glass);
+// Object.seal(glass);
+// glass.source = 'bangladesh';
+// console.log(glass);
+// // delete glass.price;
+// glass.price = 5000;
+// console.log(glass);
 
+// const numbers0 = [23, 45, 54, 65, 45];
+// for (let i = 0; i < numbers0.length; i++){
+// 	console.log(i);
+// }
+
+
+// let sentences = 'Shakib al hasan';
+// for (let char of sentences){
+// 	console.log(char);
+// }
+
+
+// const glass = {
+// 	name: 'glass',
+// 	color: 'golden',
+// 	price: 123,
+// 	isCleaned: true,
+// }
+
+// for (let product in glass){
+// 	console.log(product);
+// }
+
+// function printFavouriteNaykaName(){
+// 	var nayka = 'Purnima';
+
+// 	if(nayka == 'Purnima'){
+		
+// 		var nayka = 'Alia Bhatt';
+// 		console.log('%c Condition block :: ' + nayka, 'color: red')
+// 	}
+// 	console.log('%c Functional block ::' + nayka, 'color: green')
+// }
+
+// printFavouriteNaykaName()
+
+// function printFavouriteNaykaName1(){
+// 	let nayka = 'Purnima';
+
+// 	if(nayka == 'Purnima'){
+		
+// 		let nayka = 'Alia Bhatt';
+// 		console.log('%c Condition block :: ' + nayka, 'color: red')
+// 	}
+// 	console.log('%c Functional block ::' + nayka, 'color: green')
+// }
+
+// printFavouriteNaykaName1()
+
+
+// let fruits = ['mango', 'apple'];
+// let fruitsCopy = [...fruits];
+
+// let fruitse = ['pineApple', 'potato'];
+
+// console.log(fruits, fruitse)
+// let fruitsAvg = [...fruits, ...fruitse];
+// console.log(fruitsAvg);
+
+
+// practice task 1
+
+// const multiply = (a, b, c) => a * b * c;
+
+// console.log(multiply(3,4, 4));
+
+//template string
+
+// const template = `I am a Web developer.
+// I love to code.
+// I love to eat biryani`;
+
+// console.log(template);
+
+//problem task 2
+
+//default parameter
+
+// const defaults = (a, b=2) => a + b;
+
+// console.log(defaults(2));
+
+//problem task 3
+
+// const friends = ['Akash', 'Shakib', 'Tamim', 'Mashrafe'];
+
+// for(let friend of friends){
+// 	let even = [];
+// 	// console.log(friend);
+// 	if(friend.length % 2 === 0){
+// 		even.push(friend);
+// 		console.log(friend);
+// 	}
+// }
+
+// function evenFriends(friends){
+// 	let even = [];
+// 	for(let friend of friends){
+// 		if(friend.length % 2 === 0){
+// 			even.push(friend);
+// 		}
+// 	}
+// 	return even;
+// }
+
+// console.log(evenFriends(['Akash', 'Shakib', 'Tamim', 'Mashrafe']));
+
+// const evenFriends = friends => {
+// 	let even = [];
+// 	for(let friend of friends){
+// 		if(friend.length % 2 === 0){
+// 			even.push(friend);
+// 		}
+// 	}
+// 	return even;
+// }
+
+// console.log(evenFriends(['Akash', 'Shakib', 'Tamim', 'Mashrafe', 'Musfiq', 'Mahmudullah']))
+
+//problem task 4
 
 
 
