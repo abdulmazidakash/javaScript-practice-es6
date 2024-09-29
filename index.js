@@ -496,17 +496,75 @@ const products = [
 // const safwan = new Teacher('Safwan Sir', 'FSD');
 // console.log(safwan);
 
-class Teacher{
-	constructor(name, subject){
-		this.name = name;
-		this.subject = subject;
-	}
-	lecture(talk){
-		console.log(`sir is teaching math ${talk}`);
-	}
-}
+// class Teacher{
+// 	constructor(name, subject){
+// 		this.name = name;
+// 		this.subject = subject;
+// 	}
+// 	lecture(talk){
+// 		console.log(`sir is teaching math ${talk}`);
+// 	}
+// }
 
-const tapan = new Teacher('Tapan sir', 'Physics');
-console.log(tapan);
-tapan.lecture('Physics legendary teacher');
+// const tapan = new Teacher('Tapan sir', 'Physics');
+// console.log(tapan);
+// tapan.lecture('Physics legendary teacher');
 // console.log(tapan)
+
+class Vehicle{
+	constructor(name, price){
+		this.name = name;
+		this.price = price;
+	}
+	move(){
+		console.log('ghari chole na chole na chole na re');
+	}
+};
+
+// class Bus extends Vehicle{
+// 	constructor(name, price, seat, ticketPrice){
+// 		super(name, price);
+// 			this.seat = seat;
+// 			this.ticketPrice = ticketPrice;
+		
+// 	}
+// }
+
+// const bus = new Bus('toyota', 1000, 43, 400);
+// console.log(bus)
+// const bus = new Vehicle('toyota', 21344);
+// console.log(bus);
+
+// class Truck extends Vehicle{
+// 	constructor(name, price, load){
+// 		super(name, price);
+// 		this.load = load;
+// 	}
+// }
+
+// const truck = new Truck('honda', 100000, '400kg');
+// console.log(truck);
+
+
+// class Person{
+// 	constructor(name, age){
+// 		this.name = name;
+// 		this.age = age;
+		
+// 	}
+// 	sleep(){
+// 		console.log(`Sleeping now ${this.name}`)
+// 	}
+// 	activity(){
+// 		this.sleep();
+// 	}
+// }
+
+// const kodom = new Person('shakib', 21);
+// console.log(kodom);
+// kodom.sleep();
+// const badam = new Person('kacha badam', 23);
+// console.log(badam);
+// badam.sleep();
+
+
