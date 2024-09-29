@@ -130,5 +130,114 @@ const math = (x, y, z) =>{
 
 // console.log(math(4, 4, 6));
 
+// const max = Math.max(3,4,5,6, 5,76, 65);
+// console.log(max);
+
+// const numbers1 = [49, 48, 45, 4, 43, 24];
+// const nums = Math.max(...numbers1);
+// // console.log(...numbers1);
+// console.log(nums);
+
+// const friends1 = [23, 43, 56, 76];
+// const bondhu = friends1;
+// const dosto = [...friends1];
+// dosto.push(34, 45);
+// console.log(friends1);
+// console.log(dosto);
+
+// const sonka = [...friends1, 45, 54];
+// console.log(sonka);
+
+// const friend = friends1;
+// console.log(...friends1);
+// friend.push(34, 43);
+// console.log(...friend);
+// friends1.push(45, 45,76);
+// console.log(...friends1);
+// console.log(friend);
+
+// const user = {
+// 	name: 'shakib',
+// 	age: 34,
+// 	profession: 'cricketer',
+// }
+
+// const {name, age: boyos} = user;
+// console.log(name, boyos);
+
+// const numbers2 = [34, 54];
+// const [firsts, second] = numbers2;
+// const [x, y] = [23, 44];
+// console.log(firsts, second);
+
+// console.log(x, y);
+
+// function doubleThem(a, b){
+// 	return [a * 2, b * 2];
+// }
+
+// const [prothom, ditiyo] = doubleThem(6, 9);
+// console.log(prothom, ditiyo);
+
+// const user = {
+// 	name: 'hidayet',
+// 	city: 'delhi',
+// 	type: 'admin'
+// }
+
+// const {name, city, type: shakib} = user;
+// console.log(name, city, shakib);
+
+// const employee = {
+// 	id: 56,
+// 	name: 'james',
+// 	dept: 'spy'
+// }
+
+// const id = employee.id;
+// console.log(id)
+
+// let [num1,,, num3] = [1,2,4, 5, 43];
+// console.log(num1, num3);
+
+
+// function numbers(){
+// 	return [1, 3, 4, 6];
+// }
+
+// let [num1, num2] = numbers();
+// console.log(num1)+
+
+const glass = {
+	name: 'glass',
+	color: 'golden',
+	price: 123,
+	isCleaned: true,
+}
+
+// console.log(Object.keys(glass));
+// console.log(Object.values(glass))
+
+// const entries = Object.entries(glass);
+// console.log(entries);
+
+// delete glass.isCleaned;
+// console.log(glass);
+
+// const {price, ...shakib} = glass;
+// console.log(shakib)
+
+
+// Object.freeze(glass);
+Object.seal(glass);
+glass.source = 'bangladesh';
+console.log(glass);
+// delete glass.price;
+glass.price = 5000;
+console.log(glass);
+
+
+
+
 
 
