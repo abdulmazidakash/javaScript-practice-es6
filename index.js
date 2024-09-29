@@ -355,9 +355,158 @@ const math = (x, y, z) =>{
 
 // console.log(evenFriends(['Akash', 'Shakib', 'Tamim', 'Mashrafe', 'Musfiq', 'Mahmudullah']))
 
-//problem task 4
+//problem ta++sk 4
 
 
 
+//module 31 practice 
+// const {x, y, z, ...others} = {x: 2, y: 4, z: 3, name: 'Shakib', age: 34};
+
+// console.log(x, y, z, others);
+
+// const [first, second, ...remaining] = ['ram', 'sam', 'jodu', 'modu'];
+// console.log(first, second, remaining);
 
 
+// const user = {
+// 	id: 4002,
+// 	name:  'Shoriful Raj',
+// 	address: {
+// 		street: {
+// 			first: '43/2 uttor side',
+// 			second: 'porbag er goli',
+// 			third: 'no dorai'
+// 		},
+// 		city: 'dhaka'
+// 	}
+// }
+
+
+// const user2 = {
+// 	id: 465,
+// 	name: 'pori bibir majar',
+// 	address: {
+// 		city: 'chittagong',
+// 		country: 'bangladesh'
+// 	}
+// }
+
+// console.log(user.address.street?.second)
+// console.log(user2.address.street?.second)
+
+// const numbers = [21, 34, 54, 65, 54];
+
+
+// const halves = numbers.map(num => num / 2);
+// console.log(halves);
+
+// const doubled = numbers.map(num => num * 2);
+// const doubled = num => num * 2;
+// console.log(doubled);
+
+// const fiveBonus = numbers.map(num => num + 5);
+// console.log(fiveBonus);
+
+// const friends = ['akash', 'shakib', 'tamim', 'mashrafe'];
+// console.log(friends)
+// const lengths = friends.map(friend => friend.length);
+// console.log(lengths)
+
+// const firstLetter = friends.map(friend => friend[friend.length - 1]);
+// console.log(firstLetter)
+
+// const numbers = [32, 43, 54, 45];
+
+// function doubleIt(num){
+// 	console.log('num now', num);
+// 	return num * 2;
+// }
+
+// console.log(doubleIt(numbers));
+
+// const numbers = [2, 43, 4, 5, 43];
+// const result = numbers.forEach(n => console.log(n * 2)) ;
+
+// const result = numbers.filter(p => p < 20)
+
+// const result = numbers.find(p => p > 20)
+
+// console.log(result)
+
+// const numbers = [2, 4, 6, 7, 6];
+
+// const total = numbers.reduce((previous, current) => previous + current, 0);
+// console.log(total)
+
+// const num = numbers.reduce((p, c) => p + c, 0);
+// console.log(num)
+
+const products = [
+	{id: 1, name: 'lenovo', price: 30000},
+	{id: 2, name: 'hp', price: 5000},
+	{id: 3, name: 'dell', price: 40000},
+	{id: 4, name: 'mac', price: 150000}
+];
+
+// const product = products.map(p => p.name);
+// console.log(product)
+
+// const price = products.map(p => 10000 > p.name);
+// console.log(price);
+
+// const price = products.filter(p => p.price > 10000);
+// console.log(price)
+
+// const affortable = products.find(p => p.price < 10000)
+// console.log(affortable)
+
+// const product = products.reduce((accum, current) => accum + current.price, 0);
+// console.log(product)
+// class Product {
+
+// 	constructor(name){
+// 		this.name = name;
+// 	}
+// 	country = 'Bangladesh';
+
+// 	speak(talk){
+// 		console.log(`talking about ${talk}`)
+// 	}
+// }
+
+// const lenovo = new Product('le le lenovo');
+// console.log(lenovo);
+
+// class Teacher{
+// 	constructor(name, subject){
+// 		this.name = name;
+// 		this.subject = subject;
+// 	}
+// 	lecture(){
+// 		console.log('sir is teaching math')
+// 	}
+// }
+
+// const tapan = new Teacher('Tapan sir', 'physics');
+// console.log(tapan)
+
+// const rashid = new Teacher('Rashid Sir', 'Chemistry');
+// console.log(rashid);
+
+// const safwan = new Teacher('Safwan Sir', 'FSD');
+// console.log(safwan);
+
+class Teacher{
+	constructor(name, subject){
+		this.name = name;
+		this.subject = subject;
+	}
+	lecture(talk){
+		console.log(`sir is teaching math ${talk}`);
+	}
+}
+
+const tapan = new Teacher('Tapan sir', 'Physics');
+console.log(tapan);
+tapan.lecture('Physics legendary teacher');
+// console.log(tapan)
