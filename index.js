@@ -6,7 +6,7 @@ poor = 10 + rich
 
 // console.log(poor);
 
-let numbers = [2,3,45, 65,54];
+// let numbers = [2,3,45, 65,54];
 // numbers[2] = 43;
 // numbers.push(43, 4, 6, 4);
 numbers = [3, 5, 6, 4]
@@ -39,7 +39,7 @@ function add(num1 = 8, num2 = 8){
 // const sum = add(4, 5);
 // const sum = add(3);
 // const sum = add(4, 5, 6) 
-const sum = add() 
+// const sum = add() 
 // console.log(sum);
 
 function fullName(first, last =''){
@@ -76,7 +76,59 @@ const last = 'Akash';
 
 const sentence = 'My name is Akash \n' + 'Shakib Al Hasan \n' + 'Mashrafe Mortaza \n' + 'Tamim Iqbal';
 
-console.log(sentence);
+// console.log(sentence);
+
+
+function add(a, b){
+	return a + b;
+}
+
+const add1 = function(a, b){
+	return a + b;
+}
+
+const add2 = (a, b) => a + b;
+
+const multiply = (a, b, c, d) => a * b * c * d;
+
+const divide = (a, b) => a / b;
+
+const dividing = (a, b) => a % b;
+// const sum = add2(3, 4);
+// console.log(sum);
+// const mult = multiply(2, 2, 2, 2);
+// console.table(mult);
+// const divi = dividing(12, 5);
+// console.table(divi);
+
+// const person = person => person.age;
+
+// const person1 = person({name: 'shakib', age: 34});
+// console.log(person1);
+
+// const person2 = person => person.name;
+
+// const person3 = person2({name: 'Akash', age: 25});
+// console.log(person3);
+
+// const numbers1 = num => num[2] ;
+
+// const number = numbers1([34, 65, 87, 89, 78]);
+// console.log(number);
+
+// const math = () => Math.PI;
+
+// console.log(math());
+
+const math = (x, y, z) =>{
+	const sum = x + y + z;
+	const multiply = x * y * z;
+	const result = parseFloat(multiply / sum).toFixed(2);
+
+	return result;
+}
+
+// console.log(math(4, 4, 6));
 
 
 
